@@ -42,7 +42,7 @@ const handlecontactform=(e)=>{
       
         <Row className='m-auto' style={{width:"50%"}}>
             <h4 style={{textShadow:"2px 2px blue"}}>Contact Page :-</h4>
-        <Form onSubmit={handlecontactform} action='https://formspree.io/f/xleqaenq'  method='POST'>
+        <Form onSubmit={handlecontactform} >
        
       <Form.Group className="mb-3" >
       <Form.Label>Name : </Form.Label>
